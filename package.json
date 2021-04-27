@@ -13,6 +13,7 @@
     "mdbreact": "^4.25.5",
     "react": "^16.13.1",
     "react-bootstrap": "^1.5.2",
+    "react-bootstrap-carousel": "^4.1.1",
     "react-dom": "^16.13.1",
     "react-firebaseui": "^4.1.0",
     "react-router-dom": "^5.2.0",

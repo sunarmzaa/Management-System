@@ -109,8 +109,10 @@ class Login extends Component {
                   <h6 className="mb-4">
                     ยินดีต้อนรับเข้าสู่เว็บไซต์ไปเที่ยวกาน เชิญเข้ามาแชร์ข้อมูลประสบการณ์การท่องเที่ยวในประเทศไทยที่ประทับใจของท่านให้เพื่อน ๆ
                     ได้รับรู้กันเถอะ
-
+                    <MDBBtn color="amber" to="/page_home">เข้าสู่เว็บไซต์</MDBBtn>
+                  
                   </h6>
+                  
                 </MDBAnimation>
 
                 <MDBCol md="6" xl="5" className="mb-4">
@@ -139,7 +141,7 @@ class Login extends Component {
                           label="Your password"
                           icon="lock"
                           type="password"
-                          group type="password"
+                          // group type="password"
                           name="password"
                           validate value={this.state.password}
                           onChange={this.handleChange}

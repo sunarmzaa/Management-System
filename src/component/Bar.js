@@ -1,6 +1,6 @@
 import React from 'react'
 import fire from '../config/fire'
-import Carousel from 'react-bootstrap/Carousel'
+// import Carousel from 'react-bootstrap/Carousel'
 import { Navbar, Nav,Form } from 'react-bootstrap'
 import {MDBBtn,} from "mdbreact";
 
@@ -15,7 +15,7 @@ const Bar = (props) => {
     return (
 
         <div id="classicformpage">
-            <Carousel>
+            {/* <Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -50,7 +50,7 @@ const Bar = (props) => {
                         <p>ตั้งอยู่ที่ ตำบลนิคมสร้างตนเอง อำเภอเมืองลพบุรี ลพบุรี 15000 </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
 
             <div>
                 <Navbar bg="#1c2331 mdb-color darken-4 " variant="dark ">
