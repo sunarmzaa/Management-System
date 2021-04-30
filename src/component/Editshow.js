@@ -4,7 +4,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView } from 
 export default props => {
 
   const { editshow } = props
-  const { imgUrl1, placetName, district, province, sector, time, reviews } = editshow
+  const { imgUrl1, placetName, district, province} = editshow
 
   return (
 
@@ -12,7 +12,7 @@ export default props => {
       <MDBCard className="my-5 px-5 pb-5">
         <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold text-center my-5">
-            Reviews
+            คำศัพท์
           </h2>
           <MDBRow>
             <MDBCol lg="5">
@@ -31,16 +31,16 @@ export default props => {
               <a href="#!" className="green-text">
                 <h6 className="font-weight-bold mb-3">
                   <MDBIcon icon="utensils" className="pr-2" />
-                Travel
+                {/* Travel */}
               </h6>
               </a>
               <h4 className="black-text font-weight-bold mb-1 p-0">
-                - ชื่อสถานที่ :  <strong>{placetName}</strong><br />
-                    - อำเภอ :<strong>{district}</strong> <br />
-                   - จังหวัด: <strong>{province}</strong> <br />
-                   - ภาค: <strong>{sector}</strong> <br />
+                   - อังกฤษ :  <strong>{placetName}</strong><br />
+                   - คำอ่าน : <strong>{district}</strong> <br />
+                   - ภาษาไทย : <strong>{province}</strong> <br />
+                   {/* - ภาค: <strong>{sector}</strong> <br />
                    - เวลาเปิด - ปิด : <strong>{time}</strong> <br />
-                   - รีวิว : <strong>{reviews}</strong> <br />
+                   - รีวิว : <strong>{reviews}</strong> <br /> */}
               </h4>
             </MDBCol>
           </MDBRow>

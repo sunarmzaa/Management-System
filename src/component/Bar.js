@@ -57,8 +57,8 @@ const Bar = (props) => {
                     <Navbar.Brand href="/page_home">หน้าแรก</Navbar.Brand>
                     <Nav className="mr-auto">
                         <Nav.Link href="/page_guide">แนะนำ</Nav.Link>
-                        <Nav.Link href="/page_change"> แลกเปลี่ยน </Nav.Link>
-                        <Nav.Link href="/page_show"> Reviews </Nav.Link>
+                        <Nav.Link href="/page_change"> การจัดการ </Nav.Link>
+                        <Nav.Link href="/page_show"> คำศัพท์ </Nav.Link>
                         <Nav.Link href="/page_aboutme">เกี่ยวกับฉัน</Nav.Link>
                     </Nav>
 

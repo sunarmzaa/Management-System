@@ -18,7 +18,7 @@ const PageHome = props => {
 
         <section className="my-5">
           <h2 className="h1-responsive font-weight-bold text-center my-5">
-            ยินดีต้องรับเข้าสู่ "ไปเที่ยวกาน"
+            ยินดีต้องรับเข้าสู่ "Thai Foundation แอปพลิเคชันช่วยเรียนภาษาไทย"
         </h2>
           <p className="grey-text w-responsive text-center mx-auto mb-5">
             เว็บไซต์นี้จัดทำขึ้นเพื่อ แนะนำสถานที่ท่องเที่ยวภายในประเทศไทย แลกเปลี่ยนการท่องเที่ยวของกันและกัน และเพื่อสนับสนุนการท่องเที่ยวภายในประเทศ
